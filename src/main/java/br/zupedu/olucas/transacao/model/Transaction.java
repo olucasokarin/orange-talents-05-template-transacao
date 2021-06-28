@@ -41,4 +41,20 @@ public class Transaction {
     public void setCard(Card card) {
         this.card = card;
     }
+
+    public UUID getExternalId() {
+        return externalId;
+    }
+
+    public BigDecimal getValue() {
+        return value;
+    }
+
+    public Establishment getEstablishment() {
+        return establishment;
+    }
+
+    public LocalDateTime getCreatedAt() {
+        return createdAt;
+    }
 }

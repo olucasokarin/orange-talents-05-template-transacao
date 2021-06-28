@@ -23,4 +23,8 @@ public class Card {
     public UUID getExternalId() {
         return externalId;
     }
+
+    public String getEmail() {
+        return email;
+    }
 }
